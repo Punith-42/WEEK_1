@@ -1,51 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
+body{
+    font-family:'Courier New', Courier, monospace;
     max-width: 600px;
     margin: 30px auto;
-    padding: 0 15px;
-    background-color: #fff;
+    /* padding: 0 15px; */
+    background-color:lemonchiffon;
 }
 
-h1 {
-    text-align: center;
-}
 
-#search {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 20px;
-    font-size: 16px;
-}
 
-#userList {
-    list-style-type: none;
-    padding-left: 0;
-}
 
-.user-item {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    align-items: center;
-}
 
-.user-photo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-}
 
-.user-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.user-name {
-    font-weight: bold;
-}
-
-.user-contact {
-    font-size: 14px;
-    color: #555;
-}
