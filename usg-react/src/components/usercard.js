@@ -1,4 +1,4 @@
-// src/components/UserCard.js
+
 import React from "react";
 
 function UserCard(props) {
@@ -12,3 +12,4 @@ function UserCard(props) {
 }
 
 export default UserCard;
+
