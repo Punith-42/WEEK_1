@@ -1,10 +1,10 @@
-// Get elements from the page
+
 var userList = document.getElementById("userList");
 var searchInput = document.getElementById("search");
 
 var users = [];
 
-// Get the users from the API
+
 fetch("https://dummyjson.com/users")
     .then(function(response) {
         return response.json();
@@ -17,7 +17,7 @@ fetch("https://dummyjson.com/users")
         userList.innerHTML = "<li>Failed to load users.</li>";
     });
 
-// Function to show the users in the list
+
 function renderUsers(usersToShow) {
     if (usersToShow.length === 0) {
         userList.innerHTML = "<li>No users found.</li>";
@@ -38,7 +38,7 @@ function renderUsers(usersToShow) {
     userList.innerHTML = html;
 }
 
-// Search for users when typing
+
 searchInput.addEventListener("input", function(event) {
     var term = event.target.value.toLowerCase();
 
