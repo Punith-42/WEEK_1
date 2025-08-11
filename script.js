@@ -39,6 +39,8 @@ function renderUsers(usersToShow) {
 }
 
 
+
+
 searchInput.addEventListener("input", function(event) {
     var term = event.target.value.toLowerCase();
 
